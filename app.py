@@ -8,7 +8,8 @@ def hello():
 
 @app.route("/")
 def index():
-	return "This is my Flask application!"
+	# this line was changed to see if changes are instant or I would need to rebuild image
+	return "This is my Flask application 2!"
 
 
 if __name__ == '__main__':
