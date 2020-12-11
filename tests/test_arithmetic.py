@@ -4,7 +4,7 @@ def add(x, y):
 	return x + y
 
 def subtract(x, y):
-	return x - y
+	return y - x
 
 def test_add():
 	assert add(3, 5) == 8
