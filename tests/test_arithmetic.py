@@ -1,14 +1,14 @@
-import pytest
-
 def add(x, y):
-	return x + y
+    return x + y
+
 
 def subtract(x, y):
-	return y - x
+    return y - x
+
 
 def test_add():
-	assert add(3, 5) == 8
+    assert add(3, 5) == 8
+
 
 def test_subtract():
-	assert subtract(5, 10) == 5
-
+    assert subtract(5, 10) == 5
